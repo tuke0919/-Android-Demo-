@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-
+    <!-- 带icon的圆形图标-->
+    <declare-styleable name="CircleImageViewWithIcon">
+        <attr name="largeImageSrc" format="reference|integer"/>
+        <attr name="smallImageSrc" format="reference|integer"/>
+    </declare-styleable>
 
 </resources>

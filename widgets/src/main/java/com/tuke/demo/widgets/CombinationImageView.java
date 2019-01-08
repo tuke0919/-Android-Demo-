@@ -17,8 +17,12 @@ import com.facebook.drawee.view.SimpleDraweeView;
 
 /**
  * <p>
- * 功能：组合头像
+ * 功能：组合头像 最多4个
  * </p>
+ * <p>Copyright corp.netease.com 2018 All right reserved </p>
+ *
+ * @author tuke 时间 2019/1/8
+ * @email tuke@corp.netease.com
  * <p>
  * 最后修改人：无
  */
@@ -130,10 +134,13 @@ public class CombinationImageView extends RelativeLayout {
      * @param urls
      */
     public void setImageUri(String[] urls) {
-        if (urls == null || urls.length > 4) {
+        if (urls == null || urls.length == 0) {
             return;
         }
-        for (int index = 0; index < urls.length; index ++) {
+        int maxCount = 4;
+        int index;
+        int length = urls.length > 4 ? maxCount : urls.length;
+        for (index = 0; index < length; index ++) {
             if (!TextUtils.isEmpty(urls[index])) {
                 SimpleDraweeView imageView = (SimpleDraweeView) getChildAt(index);
                 Uri uri = Uri.parse(urls[index]);
@@ -141,6 +148,41 @@ public class CombinationImageView extends RelativeLayout {
                         .setUri(uri)
                         .build();
                 imageView.setController(controller);
+            }
+        }
+        for (; index < maxCount; index ++) {
+            View child  = getChildAt(index);
+            if (child != null) {
+                child.setVisibility(GONE);
+            }
+        }
+    }
+
+    /**
+     * 设置图片uri
+     * @param urls
+     */
+    public void setImageUri(int[] urls) {
+        if (urls == null || urls.length == 0) {
+            return;
+        }
+        int maxCount = 4;
+        int index;
+        int length = urls.length > 4 ? maxCount : urls.length;
+        for (index = 0; index < length; index ++) {
+            if (urls[index] != 0) {
+                SimpleDraweeView imageView = (SimpleDraweeView) getChildAt(index);
+                Uri uri = Uri.parse("res://aaa/" + urls[index]);
+                DraweeController controller = Fresco.newDraweeControllerBuilder()
+                        .setUri(uri)
+                        .build();
+                imageView.setController(controller);
+            }
+        }
+        for (; index < maxCount; index ++) {
+            View child  = getChildAt(index);
+            if (child != null) {
+                child.setVisibility(GONE);
             }
         }
     }

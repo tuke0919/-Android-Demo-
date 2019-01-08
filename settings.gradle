@@ -1,0 +1,1 @@
+include ':app', ':javeProject', ':audiodemo', ':surfuaceviewdemo', ':toolbardemo', ':glidedemo', ':widgets'

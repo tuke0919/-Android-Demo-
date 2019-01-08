@@ -1,0 +1,55 @@
+BOARD=unknown
+BOOTLOADER=unknown
+BRAND=google
+CPU_ABI=x86
+CPU_ABI2=
+DEVICE=generic_x86
+DISPLAY=sdk_gphone_x86-userdebug 8.0.0 OSR1.180418.003 4741120 dev-keys
+FINGERPRINT=google/sdk_gphone_x86/generic_x86:8.0.0/OSR1.180418.003/4741120:userdebug/dev-keys
+HARDWARE=ranchu
+HOST=abfarm050
+ID=OSR1.180418.003
+IS_CONTAINER=false
+IS_DEBUGGABLE=true
+IS_EMULATOR=true
+IS_ENG=false
+IS_TREBLE_ENABLED=true
+IS_USER=false
+IS_USERDEBUG=true
+MANUFACTURER=Google
+MODEL=Android SDK built for x86
+PERMISSIONS_REVIEW_REQUIRED=false
+PRODUCT=sdk_gphone_x86
+RADIO=unknown
+SERIAL=unknown
+SUPPORTED_32_BIT_ABIS=[Ljava.lang.String;@1b20c3e
+SUPPORTED_64_BIT_ABIS=[Ljava.lang.String;@e7e4a9f
+SUPPORTED_ABIS=[Ljava.lang.String;@c7c67ec
+TAG=Build
+TAGS=dev-keys
+TIME=1524594846000
+TYPE=userdebug
+UNKNOWN=unknown
+USER=android-build
+versionCode=7
+versionName=1.1.4
+java.lang.UnsatisfiedLinkError: No implementation found for int com.baidu.platform.comjni.tools.JNITools.initClass(java.lang.Object, int) (tried Java_com_baidu_platform_comjni_tools_JNITools_initClass and Java_com_baidu_platform_comjni_tools_JNITools_initClass__Ljava_lang_Object_2I)
+	at com.baidu.platform.comjni.tools.JNITools.initClass(Native Method)
+	at com.baidu.platform.comjni.tools.a.b(Unknown Source:6)
+	at com.baidu.platform.comapi.a.<clinit>(Unknown Source:23)
+	at com.baidu.platform.comapi.a.a(Unknown Source:0)
+	at com.baidu.platform.comapi.c.a(Unknown Source:25)
+	at com.baidu.mapapi.SDKInitializer.initialize(Unknown Source:0)
+	at com.baidu.mapapi.SDKInitializer.initialize(Unknown Source:1)
+	at com.baidu.car.radio.ExApplication.initBaidumap(ExApplication.java:86)
+	at com.baidu.car.radio.ExApplication.onCreate(ExApplication.java:38)
+	at android.app.Instrumentation.callApplicationOnCreate(Instrumentation.java:1118)
+	at android.app.ActivityThread.handleBindApplication(ActivityThread.java:5791)
+	at android.app.ActivityThread.-wrap1(Unknown Source:0)
+	at android.app.ActivityThread$H.handleMessage(ActivityThread.java:1661)
+	at android.os.Handler.dispatchMessage(Handler.java:105)
+	at android.os.Looper.loop(Looper.java:164)
+	at android.app.ActivityThread.main(ActivityThread.java:6541)
+	at java.lang.reflect.Method.invoke(Native Method)
+	at com.android.internal.os.Zygote$MethodAndArgsCaller.run(Zygote.java:240)
+	at com.android.internal.os.ZygoteInit.main(ZygoteInit.java:767)

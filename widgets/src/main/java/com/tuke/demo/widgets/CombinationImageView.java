@@ -18,11 +18,6 @@ import com.facebook.drawee.view.SimpleDraweeView;
 /**
  * <p>
  * 功能：组合头像 最多4个
- * </p>
- * <p>Copyright corp.netease.com 2018 All right reserved </p>
- *
- * @author tuke 时间 2019/1/8
- * @email tuke@corp.netease.com
  * <p>
  * 最后修改人：无
  */

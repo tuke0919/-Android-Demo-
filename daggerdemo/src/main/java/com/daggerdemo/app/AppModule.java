@@ -11,7 +11,7 @@ import dagger.Module;
 import dagger.Provides;
 
 /**
- * 功能：
+ * 功能：提供SharedPreferences和Context的方法
  */
 @Module
 public class AppModule {

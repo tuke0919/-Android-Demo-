@@ -8,7 +8,7 @@ import com.daggerdemo.app.AppModule;
 import com.daggerdemo.app.DaggerAppComponet;
 
 /**
- * 功能：
+ * 功能：实例化AppComponet
  */
 public class DaggerApplication extends Application {
 

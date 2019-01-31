@@ -28,5 +28,6 @@ import dagger.Component;
         RetrofitModule.class,
         ServiceModule.class,})
 public interface AppComponet {
+    // 返回子Componet
     MainComponet addSub(MainModule mainModule);
 }

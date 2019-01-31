@@ -17,14 +17,7 @@ import okhttp3.Response;
 import okhttp3.logging.HttpLoggingInterceptor;
 
 /**
- * 功能：
- * </p>
- * <p>Copyright corp.netease.com 2019 All right reserved </p>
- *
- * @author tuke 时间 2019/1/31
- * @email tuke@corp.netease.com
- * <p>
- * <p>
+ * 功能：提供OkHttpClient的方法
  */
 @Module
 public class OkHttpClientModule {

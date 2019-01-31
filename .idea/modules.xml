@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/TUKE_DEMO.iml" filepath="$PROJECT_DIR$/TUKE_DEMO.iml" />
+      <module fileurl="file://$PROJECT_DIR$/-Android-Demo-.iml" filepath="$PROJECT_DIR$/-Android-Demo-.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/audiodemo/audiodemo.iml" filepath="$PROJECT_DIR$/audiodemo/audiodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/daggerdemo/daggerdemo.iml" filepath="$PROJECT_DIR$/daggerdemo/daggerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/glidedemo/glidedemo.iml" filepath="$PROJECT_DIR$/glidedemo/glidedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javeProject/javeProject.iml" filepath="$PROJECT_DIR$/javeProject/javeProject.iml" />
+      <module fileurl="file://$PROJECT_DIR$/mvvmdemo/mvvmdemo.iml" filepath="$PROJECT_DIR$/mvvmdemo/mvvmdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/surfuaceviewdemo/surfuaceviewdemo.iml" filepath="$PROJECT_DIR$/surfuaceviewdemo/surfuaceviewdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/toolbardemo/toolbardemo.iml" filepath="$PROJECT_DIR$/toolbardemo/toolbardemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/widgets/widgets.iml" filepath="$PROJECT_DIR$/widgets/widgets.iml" />

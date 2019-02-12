@@ -1,1 +1,1 @@
-include ':app', ':javeProject', ':audiodemo', ':surfuaceviewdemo', ':toolbardemo', ':glidedemo', ':widgets', ':mvvmdemo', ':daggerdemo'
+include ':app', ':javeProject', ':audiodemo', ':surfuaceviewdemo', ':toolbardemo', ':glidedemo', ':widgets', ':mvvmdemo', ':daggerdemo', ':canvasdemo'

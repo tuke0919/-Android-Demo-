@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$/-Android-Demo-.iml" filepath="$PROJECT_DIR$/-Android-Demo-.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/audiodemo/audiodemo.iml" filepath="$PROJECT_DIR$/audiodemo/audiodemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/canvasdemo/canvasdemo.iml" filepath="$PROJECT_DIR$/canvasdemo/canvasdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/daggerdemo/daggerdemo.iml" filepath="$PROJECT_DIR$/daggerdemo/daggerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/glidedemo/glidedemo.iml" filepath="$PROJECT_DIR$/glidedemo/glidedemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/javeProject/javeProject.iml" filepath="$PROJECT_DIR$/javeProject/javeProject.iml" />

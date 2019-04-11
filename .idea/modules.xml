@@ -3,6 +3,9 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/-Android-Demo-.iml" filepath="$PROJECT_DIR$/-Android-Demo-.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotation/annotation.iml" filepath="$PROJECT_DIR$/annotation/annotation.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotationcompiler/annotationcompiler.iml" filepath="$PROJECT_DIR$/annotationcompiler/annotationcompiler.iml" />
+      <module fileurl="file://$PROJECT_DIR$/annotationprocessordemo/annotationprocessordemo.iml" filepath="$PROJECT_DIR$/annotationprocessordemo/annotationprocessordemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/audiodemo/audiodemo.iml" filepath="$PROJECT_DIR$/audiodemo/audiodemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/canvasdemo/canvasdemo.iml" filepath="$PROJECT_DIR$/canvasdemo/canvasdemo.iml" />

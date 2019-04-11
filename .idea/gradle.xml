@@ -3,11 +3,26 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <compositeConfiguration>
-          <compositeBuild compositeDefinitionSource="SCRIPT" />
-        </compositeConfiguration>
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/annotation" />
+            <option value="$PROJECT_DIR$/annotationcompiler" />
+            <option value="$PROJECT_DIR$/annotationprocessordemo" />
+            <option value="$PROJECT_DIR$/app" />
+            <option value="$PROJECT_DIR$/audiodemo" />
+            <option value="$PROJECT_DIR$/canvasdemo" />
+            <option value="$PROJECT_DIR$/daggerdemo" />
+            <option value="$PROJECT_DIR$/glidedemo" />
+            <option value="$PROJECT_DIR$/javeProject" />
+            <option value="$PROJECT_DIR$/mvvmdemo" />
+            <option value="$PROJECT_DIR$/surfuaceviewdemo" />
+            <option value="$PROJECT_DIR$/toolbardemo" />
+            <option value="$PROJECT_DIR$/widgets" />
+          </set>
+        </option>
         <option name="resolveModulePerSourceSet" value="false" />
       </GradleProjectSettings>
     </option>

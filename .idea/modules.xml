@@ -11,6 +11,8 @@
       <module fileurl="file://$PROJECT_DIR$/canvasdemo/canvasdemo.iml" filepath="$PROJECT_DIR$/canvasdemo/canvasdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/daggerdemo/daggerdemo.iml" filepath="$PROJECT_DIR$/daggerdemo/daggerdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/glidedemo/glidedemo.iml" filepath="$PROJECT_DIR$/glidedemo/glidedemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javaasmdemo/javaasmdemo.iml" filepath="$PROJECT_DIR$/javaasmdemo/javaasmdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/javapoet/javapoet.iml" filepath="$PROJECT_DIR$/javapoet/javapoet.iml" />
       <module fileurl="file://$PROJECT_DIR$/javeProject/javeProject.iml" filepath="$PROJECT_DIR$/javeProject/javeProject.iml" />
       <module fileurl="file://$PROJECT_DIR$/mvvmdemo/mvvmdemo.iml" filepath="$PROJECT_DIR$/mvvmdemo/mvvmdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/surfuaceviewdemo/surfuaceviewdemo.iml" filepath="$PROJECT_DIR$/surfuaceviewdemo/surfuaceviewdemo.iml" />

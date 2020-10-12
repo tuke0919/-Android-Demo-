@@ -1,0 +1,10 @@
+apply plugin: 'java-library'
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    // gradle 插件 有 asm框架
+    implementation 'com.android.tools.build:gradle:3.3.0'
+}
+
+sourceCompatibility = "7"
+targetCompatibility = "7"

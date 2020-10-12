@@ -16,6 +16,8 @@
             <option value="$PROJECT_DIR$/canvasdemo" />
             <option value="$PROJECT_DIR$/daggerdemo" />
             <option value="$PROJECT_DIR$/glidedemo" />
+            <option value="$PROJECT_DIR$/javaasmdemo" />
+            <option value="$PROJECT_DIR$/javapoet" />
             <option value="$PROJECT_DIR$/javeProject" />
             <option value="$PROJECT_DIR$/mvvmdemo" />
             <option value="$PROJECT_DIR$/surfuaceviewdemo" />
@@ -24,6 +26,7 @@
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />
+        <option name="testRunner" value="PLATFORM" />
       </GradleProjectSettings>
     </option>
   </component>
